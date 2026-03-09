@@ -1,0 +1,28 @@
+## --- SEGURIDAD (Lo más importante) ---
+# Ignorar el archivo de variables de entorno con tus credenciales de Postgres
+.env
+.env.local
+.env.development
+
+## --- .NET / C# ---
+# Carpetas de compilación
+[Bb]in/
+[Ob]j/
+
+# Archivos de configuración de usuario (puertos locales, etc.)
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos generados por Rider / JetBrains
+.idea/
+
+## --- SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
+
+## --- PUBLICACIÓN / HERRAMIENTAS ---
+publish/
+.github/
