@@ -1,0 +1,31 @@
+## --- SEGURIDAD (Lo más importante) ---
+.env
+.env.local
+.env.development
+*.pem
+*.key
+
+## --- .NET / C# ---
+[Bb]in/
+[Ob]j/
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+
+## --- IDEs ---
+.vs/
+.vscode/
+.idea/
+
+## --- SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## --- PUBLICACIÓN ---
+publish/
